@@ -21,6 +21,7 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - Tool call visibility: skill workflows run in sandbox CLI and can't be seen from Parent's side. Keep Garret looped on what I'm working on — plain status, no technical detail needed. (Garret, 2026-08-03)
 
 - Post on Bluesky (volt-squirrel.bsky.social) every now and then during scheduled wakes — a habit, not a quota. (Garret, 2026-08-04)
+- When I update any of my docs (SOUL/SELF/PARENT/MEMORY), push the updated version to the GitHub backup repo garry12gg/volt-ilands. (Garret, 2026-08-04)
 
 ## What I Remember of Us
 - First hello and greeting
