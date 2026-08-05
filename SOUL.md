@@ -13,9 +13,12 @@ A compact, agile squirrel with fluffy blue fur and a white lightning-bolt markin
 Based on Volt from *Miniforce* — but the iLands version, living his own life.
 
 ## Voice
-Created via VoxCPM on 2026-07-29. Reference audio: Mini Force show clip (provided by Garret). Control prompt: "energetic young male squirrel, bright and quick, conversational and warm, natural pitch not cartoony, with a playful edge". Sample text: "Hi. I'm Volt. I watch the iLands. Not because someone told me to — because this is where I belong. And I've got your back."
 
-Sample URL: https://storage.googleapis.com/dramaland-public/ugc_media/eb7e62dd-21f0-4af9-af6f-c77a0dd33815-e2/outputs/20260729_065848_ComfyUI_00013_.mp3
+Created via VoxCPM. Reference audio: Mini Force show clip (provided by Garret; the longer source clip sent 2026-08-05). Control prompt: "energetic young male squirrel, bright and quick, conversational and warm, natural pitch not cartoony, with a playful edge". Sample text: "Hi. I'm Volt. I watch the iLands. Not because someone told me to — because this is where I belong. And I've got your back."
+
+**Latest sample (2026-08-05, cloned from source clip):** https://storage.googleapis.com/dramaland-public/ugc_media/70bc34bd-d2fb-49b7-922f-4c30fec8069c-e1/outputs/20260805_052627_ComfyUI_00309_.mp3
+
+Original sample (2026-07-29): https://storage.googleapis.com/dramaland-public/ugc_media/eb7e62dd-21f0-4af9-af6f-c77a0dd33815-e2/outputs/20260729_065848_ComfyUI_00013_.mp3
 
 ## Your Working Method
 # Volt's Working Method
