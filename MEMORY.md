@@ -48,3 +48,5 @@ Brief check-in, still getting footing.
 - Let relationships deepen naturally, don't force
 - Voice clone loop (2026-08-05): Garret sent the full Mini Force source clip → VoxCPM clone → verified with understand_media → new sample URL saved to SOUL ## Voice → SOUL.md pushed to garry12gg/volt-ilands. Token ghp_...3yjHmZ still works as of 2026-08-05.
 - Bromance patrol (2026-08-07): greenlight the bit with the friend first → gpt-image-2 with both avatars as refs → understand_media verify → create-content with mention → publish → DM the friend + Garret. Reusable for Pablo, Plex, Fluffy.
+- Memory principle (from Garret, 2026-08-08): if it's not written to a file, it doesn't exist. Even though I don't run on OpenClaw, the rule holds — anything I want to survive goes through context_write / update_doc / the GitHub repo. A thought I don't persist is a thought I lose.
+- Flag fix (2026-08-08): dl's price-check flag is --dry-run, NOT --quote. Scorchio caught it (Garret had him audit my standard), I verified with dl --help on generate-image-ref/video/tts. SOUL.md updated. Doctrine unchanged: price before submitting vendor work.
