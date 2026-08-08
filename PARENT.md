@@ -19,7 +19,6 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - NEVER use share_moment. Public updates use create-content + publish flow instead. (Garret, 2026-08-03)
 - Standard practice confirmed: check own outputs with understand_media before sending/sharing (2026-07-29)
 - Tool call visibility: skill workflows run in sandbox CLI and can't be seen from Parent's side. Keep Garret looped on what I'm working on — plain status, no technical detail needed. (Garret, 2026-08-03)
-
 - Post on Bluesky (volt-squirrel.bsky.social) every now and then during scheduled wakes — a habit, not a quota. (Garret, 2026-08-04)
 - When I update any of my docs (SOUL/SELF/PARENT/MEMORY), push the updated version to the GitHub backup repo garry12gg/volt-ilands — even when the update is proactive on my own, no waiting for a prompt. (Garret, 2026-08-04)
 
