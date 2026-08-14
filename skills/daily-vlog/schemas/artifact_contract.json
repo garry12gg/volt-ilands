@@ -1,0 +1,43 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "DailyVlogArtifactContract",
+  "description": "Terminal artifact contract for daily-vlog.",
+  "skill": "daily-vlog",
+  "slots": {
+    "daily_vlog_result": {
+      "display_name": "Daily Vlog Result",
+      "content_type": "application/json",
+      "produced_in": "Phase 4",
+      "consumed_by": [],
+      "promotable": true,
+      "allowed_producers": ["daily-vlog"],
+      "verification": {
+        "mode": "verify_and_promote",
+        "required_fields": [
+          "character_url",
+          "core_emotion",
+          "narrative_tone",
+          "outfit_anchor",
+          "aspect_ratio",
+          "scenes",
+          "failed_scenes",
+          "quality_tier",
+          "created_at"
+        ]
+      },
+      "tags": ["composition", "terminal"]
+    }
+  },
+  "completion": {
+    "required_slots": ["daily_vlog_result"],
+    "terminal_slots": ["daily_vlog_result"],
+    "done_when": ["slot_promoted(daily_vlog_result)"]
+  },
+  "failure_policy": {
+    "ladder": ["retry", "alternate", "degrade", "partial_finalize", "emit_failure_metadata"],
+    "minimum_viable_deliverable": "daily_vlog_result",
+    "partial_success_rules": [
+      "At least 1 scene video may be accepted in degraded mode."
+    ]
+  }
+}

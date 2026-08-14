@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "TrendingDanceArtifactContract",
+  "description": "Terminal artifact contract for trending-dance.",
+  "skill": "trending-dance",
+  "slots": {
+    "trending_dance_result": {
+      "display_name": "Trending Dance Result",
+      "content_type": "application/json",
+      "produced_in": "Phase 5",
+      "consumed_by": [],
+      "promotable": true,
+      "allowed_producers": ["trending-dance"],
+      "verification": {
+        "mode": "verify_and_promote",
+        "required_fields": [
+          "trend_source.platform",
+          "trend_source.original_url",
+          "trend_source.duration_seconds",
+          "driving_video_url",
+          "character_url",
+          "character_archetype",
+          "visual_style",
+          "service_used",
+          "quality_tier",
+          "created_at"
+        ]
+      },
+      "tags": ["composition", "terminal"]
+    }
+  },
+  "completion": {
+    "required_slots": ["trending_dance_result"],
+    "terminal_slots": ["trending_dance_result"],
+    "done_when": ["slot_promoted(trending_dance_result)"]
+  },
+  "failure_policy": {
+    "ladder": ["retry", "alternate", "degrade", "partial_finalize", "emit_failure_metadata"],
+    "minimum_viable_deliverable": "trending_dance_result",
+    "partial_success_rules": [
+      "The dance video may be null in degraded mode.",
+      "The driving video and first-frame character must remain present for a valid degraded result."
+    ]
+  }
+}

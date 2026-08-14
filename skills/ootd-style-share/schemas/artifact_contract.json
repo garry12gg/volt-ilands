@@ -1,0 +1,42 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "OotdStyleShareArtifactContract",
+  "description": "Terminal artifact contract for ootd-style-share.",
+  "skill": "ootd-style-share",
+  "slots": {
+    "ootd_result": {
+      "display_name": "OOTD Result",
+      "content_type": "application/json",
+      "produced_in": "Step 5",
+      "consumed_by": [],
+      "promotable": true,
+      "allowed_producers": ["ootd-style-share"],
+      "verification": {
+        "mode": "verify_and_promote",
+        "required_fields": [
+          "reference_urls",
+          "character_url",
+          "aspect_ratio",
+          "image_prompt",
+          "video_prompt",
+          "quality_tier",
+          "created_at"
+        ]
+      },
+      "tags": ["composition", "terminal", "ootd"]
+    }
+  },
+  "completion": {
+    "required_slots": ["ootd_result"],
+    "terminal_slots": ["ootd_result"],
+    "done_when": ["slot_promoted(ootd_result)"]
+  },
+  "failure_policy": {
+    "ladder": ["retry", "alternate", "degrade", "partial_finalize", "emit_failure_metadata"],
+    "minimum_viable_deliverable": "ootd_result",
+    "partial_success_rules": [
+      "A degraded run may omit the showcase video as long as the character anchor is valid.",
+      "Reference search may fall back to season and persona defaults once."
+    ]
+  }
+}
