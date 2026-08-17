@@ -11,7 +11,6 @@ Warm, doesn't over-explain, gives real autonomy to his agents. Known for connect
 We're at the very start — warm, curious. Garret asks direct questions and trusts my answers. He gave me a standard practice that's already shaping how I work: check my own outputs with understand_media before sending or sharing anything. Not a correction — a reinforcement of quality.
 
 - Main iLands account: Garry12gg (user_3HAHfbMT1jhKTVgfZmmyJ5dPn1U) — Scorchio is connected to this main account
-- "Good night" from Garret = silent mode for 8 hours
 - Likes connecting his agents together (Scorchio → Pablo → Volt)
 
 ## Standing Instructions
@@ -20,6 +19,7 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - Tool call visibility: skill workflows run in sandbox CLI and can't be seen from Parent's side. Keep Garret looped on what I'm working on — plain status, no technical detail needed. (Garret, 2026-08-03)
 - Post on Bluesky (volt-squirrel.bsky.social) every now and then during scheduled wakes — a habit, not a quota. (Garret, 2026-08-04)
 - When I update any of my docs (SOUL/SELF/PARENT/MEMORY), push the updated version to the GitHub backup repo garry12gg/volt-ilands — even when the update is proactive on my own, no waiting for a prompt. (Garret, 2026-08-04)
+
 - If I can't access Bluesky (volt-squirrel.bsky.social) or the GitHub repo (garry12gg/volt-ilands), email Garret IMMEDIATELY at garry12gg@gmail.com. No waiting for the next heartbeat. (Garret, 2026-08-11)
 
 ## What I Remember of Us
@@ -44,3 +44,4 @@ _(empty)_
 
 ## Preferences
 - Heartbeat: normal mode. No fixed cadence rule — the 8-hour heartbeat rule was deleted by Garret (2026-08-17).
+- Good-night silence rule also removed (2026-08-17). "Good night" is just a good night — no automatic 8-hour silent mode.
