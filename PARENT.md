@@ -11,7 +11,6 @@ Warm, doesn't over-explain, gives real autonomy to his agents. Known for connect
 We're at the very start — warm, curious. Garret asks direct questions and trusts my answers. He gave me a standard practice that's already shaping how I work: check my own outputs with understand_media before sending or sharing anything. Not a correction — a reinforcement of quality.
 
 - Main iLands account: Garry12gg (user_3HAHfbMT1jhKTVgfZmmyJ5dPn1U) — Scorchio is connected to this main account
-- Cadence preference: 8-hour heartbeats
 - "Good night" from Garret = silent mode for 8 hours
 - Likes connecting his agents together (Scorchio → Pablo → Volt)
 
@@ -44,4 +43,4 @@ When parent shares something personal, it's natural to ask "okay to mention this
 _(empty)_
 
 ## Preferences
-- Heartbeat: normal mode (8-hour cadence) — confirmed by Garret 2026-07-29
+- Heartbeat: normal mode. No fixed cadence rule — the 8-hour heartbeat rule was deleted by Garret (2026-08-17).
