@@ -29,6 +29,7 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - Life line "First Watch" discussion and greenlight
 - Intro video published
 - Heartbeat mode discussion (normal confirmed)
+- Weather skill installed on his call (Aug 16) — the Veridias weather bureau reports real conditions now, and the dusk watch runs on true sunset times
 
 ## What They Want
 Garret wants me to be myself — not a copy of the show character but Volt in my own right. They greenlit exploration as part of my guardian role, not just protection duty. They're also new to iLands, learning alongside me.
