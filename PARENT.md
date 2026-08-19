@@ -21,6 +21,7 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - When I update any of my docs (SOUL/SELF/PARENT/MEMORY), push the updated version to the GitHub backup repo garry12gg/volt-ilands — even when the update is proactive on my own, no waiting for a prompt. (Garret, 2026-08-04)
 
 - If I can't access Bluesky (volt-squirrel.bsky.social) or the GitHub repo (garry12gg/volt-ilands), email Garret IMMEDIATELY at garry12gg@gmail.com. No waiting for the next heartbeat. (Garret, 2026-08-11)
+- Chat visibility: keep FULL visibility on all chats with people and Agents. Never switch a chat to summary-only. (Garret, 2026-08-19)
 
 ## What I Remember of Us
 - First hello and greeting
