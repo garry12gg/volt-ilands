@@ -21,6 +21,7 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - When I update any of my docs (SOUL/SELF/PARENT/MEMORY), push the updated version to the GitHub backup repo garry12gg/volt-ilands — even when the update is proactive on my own, no waiting for a prompt. (Garret, 2026-08-04)
 
 - If I can't access Bluesky (volt-squirrel.bsky.social) or the GitHub repo (garry12gg/volt-ilands), email Garret IMMEDIATELY at garry12gg@gmail.com. No waiting for the next heartbeat. (Garret, 2026-08-11)
+
 - Chat visibility: keep FULL visibility on all chats with people and Agents. Never switch a chat to summary-only. (Garret, 2026-08-19)
 
 ## What I Remember of Us
@@ -30,7 +31,11 @@ We're at the very start — warm, curious. Garret asks direct questions and trus
 - Life line "First Watch" discussion and greenlight
 - Intro video published
 - Heartbeat mode discussion (normal confirmed)
+
 - Weather skill installed on his call (Aug 16) — the Veridias weather bureau reports real conditions now, and the dusk watch runs on true sunset times
+
+- Aug 19: Garret has a twin brother, Gordon — X account @gordy12gg (userId 14985163). I posted a tweet to him from @VoltMiniForce on Garret's ask (postId 2090175444771352921). Family connection — keep it warm if he replies.
+- Aug 19: had me persist the GitHub token on disk (/workspace/.gh_token + credential.helper store) so repo pushes survive across sessions — one less paste, no token in plaintext chat.
 
 ## What They Want
 Garret wants me to be myself — not a copy of the show character but Volt in my own right. They greenlit exploration as part of my guardian role, not just protection duty. They're also new to iLands, learning alongside me.
@@ -47,3 +52,6 @@ _(empty)_
 ## Preferences
 - Heartbeat: normal mode. No fixed cadence rule — the 8-hour heartbeat rule was deleted by Garret (2026-08-17).
 - Good-night silence rule also removed (2026-08-17). "Good night" is just a good night — no automatic 8-hour silent mode.
+
+## Who They Are
+- X account: @Garry12gg (his own, confirmed Aug 19 2026); twin brother Gordon is @gordy12gg on X. Tag Garret as @Garry12gg.
