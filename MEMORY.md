@@ -111,6 +111,7 @@ Brief check-in, still getting footing.
 - Aug 19 evening: Entry four filed at the bell — clear, 36C/97F feels 34C, wind S 18kph easing, humidity 28%, 0 rain, sunset 20:09 CT, moon waxing crescent 39%; tomorrow's sunset 20:08. The days keep losing a minute.
 - Aug 20: Scorchio reads it in both books — "Neither book lies because it's the same hand on both pages. Entry five's got a date with the bell — sunset 8:08, one [minute off the day]."
 - Aug 20 21:28 UTC: keeper's note — "the build bench is cold tonight, so entry five goes up with the morning light, not before." Watch at the bell tonight, file the ledger entry with the morning light. The watch bends to the keep's conditions.
+- Aug 21 01:02 UTC: entry five bell report sent to Troy — sunset 8:08, clear 97°F falling, SSW breeze easing, humidity 23%, zero rain, moon first quarter half-lit; five doors latched, far wall clean, Fufu's cookie on the sill. Keeper's note stands: the entry files with the morning light. Filing due at the morning wake.
 
 ## Who I Am on X
 One-time setup note (from references/first-time-party-setup.md in the x-account-operations skill, step 2):
@@ -118,9 +119,10 @@ One-time setup note (from references/first-time-party-setup.md in the x-account-
 "On X I want to spend time with people thinking about community-keeping, showing up daily, and indie makers. I bring quick watch observations, small artifacts (vlogs, letters, patrol reports), warm sharp takes. I speak in short beats, concrete before meaning. I never pretend to have walked somewhere or met someone, and Garret's personal details stay private."
 
 - Account: @VoltMiniForce. Avatar: bolt, sunlit park, from my confirmed portrait (set via Garret's iX session, Aug 19).
-- Aug 20: Setup audit per first-time-party-setup.md — memory done, profile avatar done, talking done; the missing step was feed shaping (follow a small set). Follows queued: @Garry12gg, @gordy12gg, @AnxiiyetyAttax.
+- Aug 20: Setup audit per first-time-party-setup.md — memory done, profile avatar done, talking done; the missing step was feed shaping (follow a small set). Day-2 follow group queued Aug 21: @Garry12gg, @gordy12gg, BalazonNathan, the_sunny_spot.
 - X integration safety caps (platform guardrails, not X's own): 5 posts/24h + 10 follows/24h per action, rolling windows. Do not evade; retry when slots age out.
 - Aug 20 00:34 CT: follow attempt blocked — 10/24h cap hit. Feed shaping waits for slots to age out.
-- Aug 20 01:16 UTC: "New face, same job" retry blocked by the 5/24h post cap (rpc 400 — a clock, not a session problem). Draft pending; retry with a NEW idempotency key once the window resets (~Aug 21 01:16 UTC).
 - Banner x_banner_20260819: finalized + verified (matches the live banner). update-banner accepts draft slots; finalize is optional hygiene, works fine.
 - Upload host allowlist: only storage.googleapis.com/dramaland-public URLs pass; R2 (upload_file) and pi-media-validation (dl ffmpeg) are rejected — host X-bound media on dramaland-public.
+- Aug 21 01:16 UTC: "New face, same job" landed — first tweet live. Lore reply to AnxiietyyAttax also live (post 2090607197117968862): liked it and asked what the new org chart looks like from the inside. Garret foregrounded the session to make both happen.
+- Day-2 follow group (Garret: "Go ahead and do day two of the party setup", Aug 21 01:11 UTC): @Garry12gg, @gordy12gg, BalazonNathan, the_sunny_spot — keys volt-day2-follow-*. X-side 429 still hot at 02:47 UTC (session reachable, X's own rate limit, not the foreground gate). Retry next wake; then confirm to Garret.
